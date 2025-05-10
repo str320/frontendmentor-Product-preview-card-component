@@ -5,8 +5,11 @@
     .card__image-mobile {
         display: none;
     }
+    .card__content {
+    max-width: 50%;
+    }
     .card__image-desk {
         background: url("/images/image-product-desktop.jpg") center center/cover no-repeat;
-        width: 100%;
+        width: 50%;
     }
 }
