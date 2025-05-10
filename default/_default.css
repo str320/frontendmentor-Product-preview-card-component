@@ -1,0 +1,56 @@
+:root {
+    /* Colors */
+    --clr-primary-100: rgb(61, 129, 104);
+    --clr-primary-900: rgb(26, 64, 50);
+
+    --clr-secondary-100: rgb(255, 255, 255);
+    --clr-secondary-300: rgb(242, 234, 226);
+    --clr-secondary-600: rgb(108, 114, 137);
+    --clr-secondary-900: rgb(28, 35, 43);
+
+    /* Fonts */
+    --ff-preset-1: "Fraunces";
+    --ff-preset-2: "Montserrat";
+    --ff-preset-3: "Montserrat";
+    --ff-preset-4: "Montserrat";
+    --ff-preset-5: "Montserrat";
+    
+    --fw-preset-1: 700;
+    --fw-preset-2: 700;
+    --fw-preset-3: 500;
+    --fw-preset-4: 500;
+    --fw-preset-5: 500;
+    
+    --fs-preset-1: 2rem;
+    --fs-preset-2: 0.875rem;
+    --fs-preset-3: 0.875rem;
+    --fs-preset-4: 0.75rem;
+    --fs-preset-5: 0.81rem;
+    
+    --lh-preset-1: 1;
+    --lh-preset-2: 1.1;
+    --lh-preset-3: 1.6;
+    --lh-preset-4: 1.2;
+    --lh-preset-5: 1.2;
+
+    --ff-bc: "Fraunces";
+    --fw-bc: 400;
+    --fs-bc: 0.875rem;
+    --lh-bc: 1.5;
+    
+    /* Spacing */
+    --sp-40: 2.5rem;
+    --sp-32: 2rem;
+    --sp-24: 1.5rem;
+    --sp-16: 1rem;
+    --sp-8: 0.5rem;
+    --sp-4: 0.25rem;
+}
+
+body {
+    background-color: var(--clr-secondary-300);
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+}

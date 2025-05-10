@@ -1,0 +1,56 @@
+.card__content {
+    padding: var(--sp-32);
+}
+
+.card__content-product {
+    font-family: var(--ff-preset-4);
+    font-weight: var(--fw-preset-4);
+    font-size: var(--fs-preset-4);
+    line-height: var(--lh-preset-4);
+    letter-spacing: 0.31rem;
+    text-transform: uppercase;
+    color: var(--clr-secondary-600);
+    margin: 0 0 var(--sp-32);
+
+}
+
+.card__content-title {
+    font-family: var(--ff-preset-1);
+    font-weight: var(--fw-preset-1);
+    font-size: var(--fs-preset-1);
+    line-height: var(--lh-preset-1);
+    color: var(--clr-secondary-900);
+    margin: 0 0 var(--sp-32);
+}
+
+.card__content-text {
+    font-family: var(--ff-preset-3);
+    font-weight: var(--fw-preset-3);
+    font-size: var(--fs-preset-3);
+    line-height: var(--lh-preset-3);
+    color: var(--clr-secondary-600);
+}
+
+.card__content-price-list {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-16);
+    margin: var(--sp-32) 0;
+}
+
+.card__content-price {
+    font-family: var(--ff-preset-1);
+    font-weight: var(--fw-preset-1);
+    font-size: var(--fs-preset-1);
+    line-height: var(--lh-preset-1);
+    color: var(--clr-primary-100);
+}
+
+.card__content-price--small {
+    font-family: var(--ff-preset-5);
+    font-weight: var(--fw-preset-5);
+    font-size: var(--fs-preset-5);
+    line-height: var(--lh-preset-5);
+    color: var(--clr-secondary-600);
+    text-decoration: line-through;
+}

@@ -1,0 +1,12 @@
+@media (width >= 37.5rem) {
+    .card__container {
+        flex-direction: row;
+    }
+    .card__image-mobile {
+        display: none;
+    }
+    .card__image-desk {
+        background: url("/images/image-product-desktop.jpg") center center/cover no-repeat;
+        width: 100%;
+    }
+}

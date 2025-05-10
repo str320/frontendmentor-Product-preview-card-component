@@ -1,0 +1,18 @@
+/* Reset */
+@import url("../base/_base.css");
+
+/* Default */
+@import url("../default/_default.css");
+
+/* Card */
+@import url("../common.blocks/card__container/_card__container.css");
+@import url("../common.blocks/card__content/_card__content.css");
+
+/* Card Button */
+@import url("../common.blocks/card__button/_card__button.css");
+
+/* Media */
+@import url("../common.blocks/card__container/media/_media.css");
+
+/* Footer */
+@import url("../common.blocks/footer/_footer.css");

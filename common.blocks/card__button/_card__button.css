@@ -1,0 +1,21 @@
+.card__button {
+    all: unset;
+    display: inline-block;
+    font-family: var(--ff-preset-2);
+    font-weight: var(--fw-preset-2);
+    font-size: var(--fs-preset-2);
+    line-height: var(--lh-preset-2);
+    color: var(--clr-secondary-100);
+    text-align: center;
+    background-color: var(--clr-primary-100);
+    border-radius: 0.5rem;
+    padding: 0.875rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+.card__button:hover {
+    background-color: var(--clr-primary-900);
+}
+
