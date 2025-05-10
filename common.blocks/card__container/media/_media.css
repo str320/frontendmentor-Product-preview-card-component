@@ -1,6 +1,7 @@
 @media (width >= 37.5rem) {
     .card__container {
         flex-direction: row;
+         max-height: 28.125rem;
     }
     .card__image-mobile {
         display: none;
